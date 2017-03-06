@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MusicalStructure</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="music_preferences">Music Preferences</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="trending">Trending</string>
+    <string name="tickets">Tickets</string>
 </resources>
