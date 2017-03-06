@@ -4,13 +4,13 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:background="#212121"
-        android:text="Pop"
+        android:background="@color/colorBlack"
+        android:text="@string/pop"
         style="@style/CommonTextView"/>
 
     <TextView
-        android:background="#212121"
-        android:text="Rock"
+        android:background="@color/colorBlack"
+        android:text="@string/rock"
         style="@style/CommonTextView"/>
 
 </LinearLayout>

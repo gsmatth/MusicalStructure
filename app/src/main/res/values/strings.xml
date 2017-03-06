@@ -5,4 +5,18 @@
     <string name="recommendations">Recommendations</string>
     <string name="trending">Trending</string>
     <string name="tickets">Tickets</string>
+    <string name="this_songs_lyrics">This Song\'s Lyrics</string>
+    <string name="artist_details_touring_schedule">Artist Details/Touring Schedule</string>
+    <string name="artists_twitter_feed">Artist\s Twitter Feed</string>
+    <string name="artists_facebook_page">Artist\s Facebook page</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock</string>
+    <string name="jazz">Jazz</string>
+    <string name="classical">Classical</string>
+    <string name="now">Now</string>
+    <string name="last_week">Last Week</string>
+    <string name="last_month">Last Month</string>
+    <string name="this_week">This Week</string>
+    <string name="coming_month">Coming Month</string>
+    <string name="next_6_months">Next 6 Months</string>
 </resources>

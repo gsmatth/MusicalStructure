@@ -4,23 +4,23 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:background="#212121"
-        android:text="This Song's Lyrics"
+        android:background="@color/colorBlack"
+        android:text="@string/this_songs_lyrics"
         style="@style/CommonTextView"/>
 
     <TextView
-        android:background="#212121"
-        android:text="Band Details/Touring Schedule"
+        android:background="@color/colorBlack"
+        android:text="@string/artist_details_touring_schedule"
         style="@style/CommonTextView"/>
 
     <TextView
-        android:background="#212121"
-        android:text="Bands Twitter feed"
+        android:background="@color/colorBlack"
+        android:text="@string/artists_twitter_feed"
         style="@style/CommonTextView"/>
 
     <TextView
-        android:background="#212121"
-        android:text="Bands Facebook Page"
+        android:background="@color/colorBlack"
+        android:text="@string/artists_facebook_page"
         style="@style/CommonTextView"/>
 
 </LinearLayout>

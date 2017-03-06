@@ -4,18 +4,18 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:background="#212121"
-        android:text="Now"
+        android:background="@color/colorBlack"
+        android:text="@string/now"
         style="@style/CommonTextView"/>
 
     <TextView
-        android:background="#212121"
-        android:text="Last Week"
+        android:background="@color/colorBlack"
+        android:text="@string/last_week"
         style="@style/CommonTextView"/>
 
     <TextView
-        android:background="#212121"
-        android:text="Last Month"
+        android:background="@color/colorBlack"
+        android:text="@string/last_month"
         style="@style/CommonTextView"/>
 
 </LinearLayout>
