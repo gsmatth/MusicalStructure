@@ -16,5 +16,10 @@
     <TextView
         style="@style/CommonTextView"
         android:text="@string/last_month" />
-
+    <Button
+        android:id="@+id/music_preference_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ticket_button_height"
+        android:text="@string/switch_to_preferences"
+        android:layout_gravity="center_horizontal"/>
 </LinearLayout>

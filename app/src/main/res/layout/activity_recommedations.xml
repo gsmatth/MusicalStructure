@@ -13,4 +13,10 @@
         style="@style/CommonTextView"
         android:text="@string/rock" />
 
+    <Button
+        android:id="@+id/recommendations_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ticket_button_height"
+        android:text="@string/purchase_ticket"
+        android:layout_gravity="center_horizontal"/>
 </LinearLayout>

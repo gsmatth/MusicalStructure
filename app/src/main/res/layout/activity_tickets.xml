@@ -16,4 +16,11 @@
     <TextView
         style="@style/CommonTextView"
         android:text="@string/next_6_months" />
+
+    <Button
+        android:id="@+id/ticket_change_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ticket_button_height"
+        android:text="@string/switch_to_now_playing"
+        android:layout_gravity="center_horizontal"/>
 </LinearLayout>

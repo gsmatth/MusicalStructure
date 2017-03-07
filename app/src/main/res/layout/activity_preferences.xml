@@ -21,4 +21,11 @@
         style="@style/CommonTextView"
         android:text="@string/classical" />
 
+    <Button
+        android:id="@+id/now_playing_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ticket_button_height"
+        android:text="@string/switch_to_now_playing"
+        android:layout_gravity="center_horizontal"/>
+
 </LinearLayout>

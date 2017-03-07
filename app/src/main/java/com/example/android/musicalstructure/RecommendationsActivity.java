@@ -1,7 +1,10 @@
 package com.example.android.musicalstructure;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 
 /**
  * Created by djp on 3/6/17.
@@ -15,5 +18,14 @@ public class RecommendationsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preferences);
+
+        Button nowPlayingButton = (Button) findViewById(R.id.now_playing_button);
+        nowPlayingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent nowPlaying = new Intent(RecommendationsActivity.this, NowPlayingActivity.class);
+                startActivity(nowPlaying);
+            }
+        });
     }
 }

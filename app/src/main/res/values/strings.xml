@@ -20,4 +20,6 @@
     <string name="coming_month">Coming Month</string>
     <string name="next_6_months">Next 6 Months</string>
     <string name="purchase_ticket">Purchase Ticket</string>
+    <string name="switch_to_now_playing">Switch to Now Playing</string>
+    <string name="switch_to_preferences">Switch to Preferences</string>
 </resources>
