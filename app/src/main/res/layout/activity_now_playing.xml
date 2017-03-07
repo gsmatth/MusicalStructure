@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryMinusFour"
+    android:orientation="vertical">
 
     <TextView
-        android:background="@color/colorBlack"
-        android:text="@string/this_songs_lyrics"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/this_songs_lyrics" />
 
     <TextView
-        android:background="@color/colorBlack"
-        android:text="@string/artist_details_touring_schedule"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/artist_details_touring_schedule" />
 
     <TextView
-        android:background="@color/colorBlack"
-        android:text="@string/artists_twitter_feed"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/artists_twitter_feed" />
 
     <TextView
-        android:background="@color/colorBlack"
-        android:text="@string/artists_facebook_page"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/artists_facebook_page" />
 
 </LinearLayout>
