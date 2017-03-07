@@ -5,4 +5,5 @@
     <dimen name="common_text_view_text_size">24sp</dimen>
     <dimen name="common_text_view_padding_left">16dp</dimen>
     <dimen name="common_text_view_height">64dp</dimen>
+    <dimen name="ticket_button_height">64dp</dimen>
 </resources>

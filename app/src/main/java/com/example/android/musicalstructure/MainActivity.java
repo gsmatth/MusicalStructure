@@ -20,45 +20,45 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView nowPlaying = (TextView) findViewById(R.id.now_playing);
-        nowPlaying.setOnClickListener(new View.OnClickListener(){
+        nowPlaying.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 Intent nowPlayingIntent = new Intent(MainActivity.this, NowPlayingActivity.class);
                 startActivity(nowPlayingIntent);
             }
         });
 
         TextView preferences = (TextView) findViewById(R.id.preferences);
-        preferences.setOnClickListener(new View.OnClickListener(){
+        preferences.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 Intent preferencesIntent = new Intent(MainActivity.this, PreferencesActivity.class);
                 startActivity(preferencesIntent);
             }
         });
 
         TextView recommendations = (TextView) findViewById(R.id.recommendations);
-        recommendations.setOnClickListener(new View.OnClickListener(){
+        recommendations.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 Intent recommendationsIntent = new Intent(MainActivity.this, RecommendationsActivity.class);
                 startActivity(recommendationsIntent);
             }
         });
 
         TextView trending = (TextView) findViewById(R.id.trending);
-        trending.setOnClickListener(new View.OnClickListener(){
+        trending.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 Intent trendingIntent = new Intent(MainActivity.this, TrendingActivity.class);
                 startActivity(trendingIntent);
             }
         });
 
         TextView tickets = (TextView) findViewById(R.id.tickets);
-        tickets.setOnClickListener(new View.OnClickListener(){
+        tickets.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 Intent ticketsIntent = new Intent(MainActivity.this, TicketsActivity.class);
                 startActivity(ticketsIntent);
             }
