@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryMinusFour"
+    android:orientation="vertical">>
 
     <TextView
-        android:background="#212121"
-        android:text="Pop"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/pop" />
 
     <TextView
-        android:background="#212121"
-        android:text="Rock"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/rock" />
 
     <TextView
-        android:background="#212121"
-        android:text="Jazz"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/jazz" />
 
     <TextView
-        android:background="#212121"
-        android:text="Classical"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/classical" />
 
 </LinearLayout>

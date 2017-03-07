@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryMinusFour"
+    android:orientation="vertical">
+
 
     <TextView
-        android:background="#212121"
-        android:text="This Song's Lyrics"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/this_songs_lyrics" />
 
     <TextView
-        android:background="#212121"
-        android:text="Band Details/Touring Schedule"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/artist_details_touring_schedule" />
 
     <TextView
-        android:background="#212121"
-        android:text="Bands Twitter feed"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/artists_twitter_feed" />
 
     <TextView
-        android:background="#212121"
-        android:text="Bands Facebook Page"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/artists_facebook_page" />
+
+    <Button
+        android:id="@+id/ticket_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ticket_button_height"
+        android:text="@string/purchase_ticket"
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

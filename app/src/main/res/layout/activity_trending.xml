@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryMinusFour"
+    android:orientation="vertical">>
 
     <TextView
-        android:background="#212121"
-        android:text="Now"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/now" />
 
     <TextView
-        android:background="#212121"
-        android:text="Last Week"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/last_week" />
 
     <TextView
-        android:background="#212121"
-        android:text="Last Month"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/last_month" />
 
 </LinearLayout>

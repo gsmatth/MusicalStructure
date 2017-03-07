@@ -3,37 +3,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryMinusFour"
     android:orientation="vertical"
-    android:background="#64B5F6"
     tools:context="com.example.android.musicalstructure.MainActivity">
 
     <TextView
         android:id="@+id/now_playing"
-        android:text="@string/now_playing"
-        android:background="#9FA8DA"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/now_playing" />
 
     <TextView
         android:id="@+id/preferences"
-        android:text="@string/music_preferences"
-        android:background="#7986CB"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/music_preferences" />
 
     <TextView
         android:id="@+id/recommendations"
-        android:text="@string/recommendations"
-        android:background="#5C6BC0"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/recommendations" />
 
     <TextView
         android:id="@+id/trending"
-        android:text="@string/trending"
-        android:background="#3F51B5"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/trending" />
+
     <TextView
         android:id="@+id/tickets"
-        android:text="@string/tickets"
-        android:background="#303F95"
-        style="@style/CommonTextView"/>
+        style="@style/CommonTextView"
+        android:text="@string/tickets" />
 
 </LinearLayout>
