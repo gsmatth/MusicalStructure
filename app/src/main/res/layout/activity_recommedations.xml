@@ -14,9 +14,9 @@
         android:text="@string/rock" />
 
     <Button
-        android:id="@+id/recommendations_button"
+        android:id="@+id/switch_to_preferences_screen"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ticket_button_height"
-        android:text="@string/purchase_ticket"
+        android:text="@string/switch_to_preferences"
         android:layout_gravity="center_horizontal"/>
 </LinearLayout>

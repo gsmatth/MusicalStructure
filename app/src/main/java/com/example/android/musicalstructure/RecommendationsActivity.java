@@ -17,14 +17,14 @@ public class RecommendationsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_preferences);
+        setContentView(R.layout.activity_recommedations);
 
-        Button nowPlayingButton = (Button) findViewById(R.id.now_playing_button);
-        nowPlayingButton.setOnClickListener(new View.OnClickListener() {
+        Button musicPreferenceButton = (Button) findViewById(R.id.switch_to_preferences_screen);
+        musicPreferenceButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent nowPlaying = new Intent(RecommendationsActivity.this, NowPlayingActivity.class);
-                startActivity(nowPlaying);
+                Intent musicPreference = new Intent(RecommendationsActivity.this, PreferencesActivity.class);
+                startActivity(musicPreference);
             }
         });
     }
